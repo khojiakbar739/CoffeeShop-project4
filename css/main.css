@@ -67,20 +67,20 @@ body {
  
 }
 
-.header_class {
+.header__logo {
   align-items: center;
   display: flex;
   justify-content: space-between;
 }
 
-.ul_list_class{
+.header__nav-list{
 
   display: flex;
   list-style-type: none; 
    align-items: top;
 }
 
-.a_list_item {
+.header__nav-link {
   text-decoration: none;
   display: block;
   padding:  50px 15px;
@@ -444,8 +444,7 @@ color: #83888F;
 text-decoration: none;
 padding: 50px 15px;
 }
-d
-}
+
 .footer_a_list_item:active {
   color: red;}
 
