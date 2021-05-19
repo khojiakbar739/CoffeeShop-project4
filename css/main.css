@@ -61,7 +61,7 @@ body {
    
 }
 
-.container {
+.header__container{
     width: 1280px;
     margin: 0 auto;
  
@@ -128,6 +128,12 @@ opacity: 0.8;
 background: #0E8784;
 border-radius: 6px;
 color: white;
+
+}
+.button_create:hover{
+  background: #66D2CF;
+border-radius: 6px;
+
 }
 .khoji {
   width : 1111px;
@@ -402,6 +408,12 @@ line-height: 25px;
 text-align: center;
 color: #FEFCF7;
 }
+.button_third_one_class:hover {
+  background: #66D2CF;
+  border-radius: 6px;
+
+}
+
 .footer_class{
   margin-top: 200px;
   background: #2C343E;
@@ -432,6 +444,11 @@ color: #83888F;
 text-decoration: none;
 padding: 50px 15px;
 }
+d
+}
+.footer_a_list_item:active {
+  color: red;}
+
 .facebook{
 display: block;
 margin-left: 350px;
